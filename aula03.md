@@ -48,6 +48,8 @@ print(resultado)
 # explicar namespaces
 # explicar o argumento sep
 ```
+
+#### namespaces
 pra acessar as funções dentro da biblioteca random, a gente tem que começar digitando o nome da biblioteca seguido de ponto e a função que a gente quer utilizar, isso é conhecido como namespace, isso é uma forma de separar as funções da biblioteca das funções do programa sendo desenvolvido. Antigamente nos tempos do C, esse conceito de namespaces não existia, então, sempre que um programador ia importar uma biblioteca nova no código, ele tinha que simplesmente torcer pra que essa biblioteca inteira não utilizasse nenhuma função com o mesmo nome que o código dele.
 
 random.choice() vai pegar como argumento um único elemento de agrupamento (ou elemento iterável) e vai retornar um item desse grupo, escolhido aleatoriamente e cada item possui a mesma chance de ser escolhido (50/50; 33/33/33; 25/25/25/25)
