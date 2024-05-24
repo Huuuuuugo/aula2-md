@@ -1,9 +1,3 @@
--bibliotecas pessoais
-
-     __name__ == "__main__"
-
-
-
 # Slide 1
 As bibliotecas são, na minha opinião, a melhor parte do python. Além da simplicidade da sintaxe e a capacidade de simplesmente poder focar na tarefa que você quer fazer (ao invés de perder tempo com as peculiaridades da linguagem ou o passo a passo necessário em um baixo nível), Python também se destaca na imensa quantidade de bibliotecas. 
 
@@ -384,4 +378,38 @@ resposta = requests.get(f"https://itunes.apple.com/search?entity=song&limit=10&t
 
 for result in resposta['results']:
     print(f"{result['artistName']} - {result['trackName']}")
+```
+\
+\
+\
+\
+\
+\
+\
+\
+# Bibliotecas pessoais
+`oi.py`
+```py
+def oi(nome):
+    return f"oi, {nome}, tudo bem?"
+
+oi("teste")
+```
+
+`main.py`
+```py
+import oi
+
+oi.oi("Hugo")
+```
+\
+\
+\
+`oi.py`
+```py
+def oi(nome):
+    return f"oi, {nome}, tudo bem?"
+
+if __name__ == "__main__":
+     oi("teste")
 ```
