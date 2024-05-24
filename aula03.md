@@ -1,6 +1,4 @@
 # Slide 1
-As bibliotecas são, na minha opinião, a melhor parte do python. Além da simplicidade da sintaxe e a capacidade de simplesmente poder focar na tarefa que você quer fazer (ao invés de perder tempo com as peculiaridades da linguagem ou o passo a passo necessário em um baixo nível), Python também se destaca na imensa quantidade de bibliotecas. 
-
 #### explicar bibliotecas
 
 bibliotecas são mais uma forma de se trabalhar coma reutilização de código.
@@ -8,6 +6,8 @@ bibliotecas são mais uma forma de se trabalhar coma reutilização de código.
 bibliotecas são programas inteiros focados em disponibilizar ferramentas para cumprir com uma determinada tarefa.
 
 são basicamente um conjunto de funções e classes que ajudam a se fazer algo no código.
+
+As bibliotecas são, na minha opinião, a melhor parte do python. Além da simplicidade da sintaxe e a capacidade de simplesmente poder focar na tarefa que você quer fazer (ao invés de perder tempo com as peculiaridades da linguagem ou o passo a passo necessário em um baixo nível), Python também se destaca na imensa quantidade de bibliotecas. 
 
 #### exemplos de bibliotecas
 
